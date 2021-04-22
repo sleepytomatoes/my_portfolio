@@ -1,4 +1,5 @@
 import selfie from '../../images/headshot.jpeg'
+import contactImg from '../../images/stockimageportfolio.jpeg'
 
 export const homeObjOne = {
     id: 'about',
@@ -6,9 +7,9 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Shauna Dunn',
-    headLine: 'Javascript',
-    description: 'I do coding bro',
-    buttonLabel: 'Get started',
+    headLine: 'Javascript / CSS',
+    description: 'Based in Richmond, VA I am a full-stack web developer focusing on UI/UX design.  Proficient in building Node and React applications.',
+    buttonLabel: 'Instagram',
     imgStart: false,
     img: selfie,
     alt: 'selfie',
@@ -39,13 +40,13 @@ export const homeObjThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Shauna Dunn',
-    headLine: 'Javascript',
-    description: 'I do coding bro',
-    buttonLabel: 'Get started',
+    topLine: 'Contact',
+    headLine: 'Shauna Dunn',
+    description: 'email: shaunadunn1@gmail.com',
+    buttonLabel: 'Email',
     imgStart: false,
-    img: selfie,
-    alt: 'selfie',
+    img: contactImg,
+    alt: 'contactImg',
     dark: true,
     primary: true,
     darkText: false
