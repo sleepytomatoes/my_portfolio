@@ -29,9 +29,9 @@ export const InfoRow = styled.div`
     col1'` : `'col1 col2'` )};
 
     @media screen and (max-width: 768px) {
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)
+        grid-template-areas: ${({imgStart}) => 
+        imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
 }
-    }
 `
 
 export const Column1 = styled.div`
@@ -95,6 +95,8 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 10px 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 10px;
     padding-right: 0;
 `

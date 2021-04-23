@@ -37,9 +37,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'contact',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Contact',
     headLine: 'Shauna Dunn',
     description: 'email: shaunadunn1@gmail.com',
@@ -47,7 +47,7 @@ export const homeObjThree = {
     imgStart: false,
     img: contactImg,
     alt: 'contactImg',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 }
